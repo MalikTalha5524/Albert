@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" nonce="76abb21a6f6e4bed8e85e5cba1f"
+        src="//local.adguard.org?ts=1680896987328&amp;type=content-script&amp;dmn=anasn5020.github.io&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1&amp;stealth=1&amp;uag="></script>
+    <script type="text/javascript" nonce="76abb21a6f6e4bed8e85e5cba1f"
+        src="//local.adguard.org?ts=1680896987328&amp;name=AdGuard%20Popup%20Blocker%20%28Beta%29&amp;name=AdGuard%20Assistant%20%28Beta%29&amp;name=AdGuard%20Extra%20%28Beta%29&amp;type=user-script"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="assets/brand/Albert-Logo.svg.png" type="image/x-icon">
+        <script src="/assets/js/style.js"></script>
+    <title>Albert</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="logo">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>Rooms</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Contacts</a></li>
+                <li><a>Template</a></li>
+
+        </div>
+        <div class="languages">
+            <a href="#" id="active">EN</a>
+            <a href="#" id="FR">FR</a>
+            <a href="#" id="ES">ES</a>
+
+        </div>
+    </header>
+
+
+    <!-- the Header has been completed  -->
+
+     <section class="sub-header-section"> 
+        <div class="sub-header-image">
+            <img src="./assets/images/sub_header_home.jpg" alt="Pool-Image">
+        </div>
+        <div class="form">
+            <form action="index.php">
+                <div class="calender">
+                    <label for="Arrival Date">Arrival date</label><br>
+                    <input type="date" value="date" class="input-types" placeholder="Arrival">
+                </div>
+                <div class="departure">
+                    <label for="Departure Date">Departure date</label><br>
+                    <input type="date" value="date" class="input-types" placeholder="Departure">
+                </div>
+                <div class="adults">
+                    <label for="Adults">Adults</label><br>
+                    <input type="number" value="number" class="input-types" placeholder="0">
+                </div>
+                <div class="childrens">
+                    <label for="Childrens">Childrens</label><br>
+                    <input type="number" value="number" class="input-types" placeholder="0">
+                </div>
+                <div class="name">
+                    <label for="Name">Name</label><br>
+                    <input type="text" class="input-types" placeholder="Name and Last Name" id="username">
+                </div>
+                <div id="show_error"></div>
+                <div class="email">
+                    <label for="Email">Email</label><br>
+                    <input type="email" class="input-types" placeholder="Your Email">
+                </div>
+                <button type="submit" id="first-button">Submit</button>
+            </form>
+        </div>
+
+    </section> 
+    
+    <!-- here is end -->
+
+    <div class="wrapper container">
+        <section class="welcome">
+
+            <h1>WELCOME TO ALBERT</h1>
+            <h3>Hotel and Bed&Breakfast</h3>
+            <p>Usu habeo equidem sanctus no.
+                Suas summo id sed, erat erant
+                oporteat cu pri. In eum omnes
+                molestie. Sed ad debet
+                scaevola, ne mel lorem
+                legendos. Unum etiam cum
+                te, an elit assueverit vix,
+                falli aliquam complectitur
+                ex ius.</p>
+        </section>
+
+
+        <!-- here is welcome note ends!! -->
+
+
+         <section class="rooms">
+
+            <div class="room-1">
+                <img src="assets/images/mosaic_1.jpg" id="mosaic-1" alt="">
+                <span class="caption-1">
+                    Nice Outdoor
+                </span>
+
+            </div>
+
+            <div class="rooms-second">
+                <div class="room-2">
+                    <img src="assets/images/mosaic_2.jpg" id="mosaic-2" alt="">
+                    <span class="caption-2">
+                        Large Bedroom
+                    </span>
+                </div>
+                <div class="last-room">
+
+                    <div class="room-3">
+                        <img src="assets/images/mosaic_3.jpg" id="mosaic-3" alt="">
+
+
+                        <img src="assets/images/mosaic_4.jpg" id="mosaic-4" alt="">
+                        <span class="caption-3">
+                            Modren Bedroom
+                        </span>
+                        <span class="caption-4">
+                            welness
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- here section is end -->
+
+
+         <section class="content-2 row mt-5">
+            <div class="single-room col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <img src="assets/images/room_home_1.jpg" alt="">
+            </div>
+
+
+            <div class="paragraph-1 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <h1>Single Room</h1>
+                <p>Lorem ipsum dolor sit
+                    amet, consected
+                    adipisicing elit,
+                    sed do eiusmod tempor
+                    incididunt ut labore
+                    et dolore magna aliqua.
+                    Ut enim ad minim veniam,
+                    quis nostrud
+                    exercitation ullamco.</p>
+
+                <div class="icons">
+                    <img src="assets/images/bed.png" alt="">
+                    <img src="assets/images/shower.png" alt="">
+                    <img src="assets/images/tv.png" alt="">
+                    <img src="assets/images/radio.png" alt="">
+                </div>
+                <button class="button-2">Read More</button>
+            </div>
+
+        </section>  
+
+        <!-- here section is end!!! -->
+
+
+        <section class="content-3 row mt-5">
+            <div class="double-room col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <h1>Double Room</h1>
+                <p>Lorem ipsum dolor sit
+                    amet, consectetur
+                    adipisicing elit,
+                    sed do eiusmod
+                    tempor incididunt
+                    ut labore et
+                    dolore magna
+                    aliqua. Ut enim
+                    ad minim veniam,
+                    quis nostrud exercitation
+                    ullamco</p>
+
+
+                <div class="icons-2">
+                    <img src="assets/images/bed.png" alt="">
+                    <img src="assets/images/tub.png" alt="">
+                    <img src="assets/images/tv.png" alt="">
+                    <img src="assets/images/radio.png" alt="">
+                </div>
+                <button class="button-3">Read More</button>
+            </div>
+            <div class="double-room-1 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <img src="assets/images/room_home_3.jpg" alt="">
+            </div>
+
+        </section>
+
+        <!-- here section is end!!! -->
+
+
+        <section class="content-4 row mt-5">
+            <div class="suit-room col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <img src="assets/images/room_home_2.jpg" alt="">
+            </div>
+
+            <div class="suit-room-content col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <h1>Suite Room</h1>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit,
+                    sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua. Ut
+                    enim ad minim veniam, quis
+                    nostrud exercitation ullamco.</p>
+                <div class="icons-3">
+                    <img src="assets/images/bed.png" alt="">
+                    <img src="assets/images/tub.png" alt="">
+                    <img src="assets/images/tv.png" alt="">
+                    <img src="assets/images/radio.png" alt="">
+                </div>
+                <button class="button-4">Read More</button>
+            </div>
+        </section>
+    </div> 
+
+    <!-- here above section is end -->
+
+
+    <section class="footer-image">
+        <div class="footer-image">
+            <img src="assets/images/footer.jpg" alt="">
+
+
+
+            <div class="client">
+                <h1 id="client-say">WHAT CLIENTS SAY</h1>
+                <h3 id="client-para">Id tale utinam ius, an mei omnium recusabo iracundia</h3>
+            </div>
+
+            <div class="roberta">
+                <div class="intro">
+                    <img src="assets/images/intro.jpg" id="girl-img" alt="">
+                    <div class="intro-name">
+                        <h4 id="intro-name">
+                            Roberta<br>
+                            <small>12 October 2015</small>
+                        </h4>
+                    </div>
+                </div>
+                <div class="about">
+                    <p>
+                        "Mea ad postea meliore fuisset.
+                        Timeam repudiare id eum, ex paulo
+                        dictas elaboraret sed, mel cu unum
+                        nostrud. No nam indoctum accommodare,
+                        vix ei discere civibus philosophia.
+                        Vis ea dicant diceret ocurreret."
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </section> 
+
+    <!-- here section endssss!! -->
+
+
+    <footer class="pre-footer">
+        <div class="footer row">
+            <div class="logo-footer col-sm-12 col-md-12 col-lg col-xl col-xxl">
+                <img src="assets/images/logo_footer.png" alt="">
+                <h4 id="address">Route de Sablet 1023, Marseille
+                    France 01923</h4>
+                <h4 id="no">+45 423 445 99 / info@albert.com</h4>
+            </div>
+
+            <div class="about-last col-sm-12 col-md-12 col-lg col-xl col-xxl">
+                <h4 id="one">About</h4>
+                <h4 id="two">About Us</h4>
+                <h4 id="three">Rooms</h4>
+                <h4 id="four">Activities</h4>
+                <h4 id="five">Contact Us</h4>
+                <h4 id="six">Gallery</h4>
+            </div>
+
+            <div class="languages-area col-sm-12 col-md-12 col-lg col-xl col-xxl">
+                <h4 id="lang-1">Change language</h4>
+                <h4 id="lang-2">English</h4>
+                <h4 id="lang-3">French</h4>
+                <h4 id="lang-4">Spanish</h4>
+            </div>
+
+
+
+            <div class="mail col-sm-12 col-md-12 col-lg col-xl col-xxl">
+                <h4 id="letter">Newsletter</h4>
+                <h4 id="message">Join our newsletter to keep be informed about offers and news.</h4>
+                <input type="email" name="emailA" id="mail-area" type="email" placeholder="Your Mail">
+                <button id="button-last">Subscribe</button>
+            </div>
+        </div>
+        <div class="social-icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        <div class="register-logo">
+            <p>© Albert 2019</p>
+        </div>
+
+    </footer>
+ <script src="/assets/js/jquery-3.6.4.min.js"></script>
+</body>
+
+</html>
